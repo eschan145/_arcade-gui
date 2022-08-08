@@ -6,7 +6,7 @@ directory = sys.path[0]
 
 path = f"{directory}/".replace("\\", "/")
 
-image_path = f"{path}images/"
+image_path = f"{path}resources/"
 
 
 # To be put into settings
@@ -38,4 +38,4 @@ knob = f"{image_path}knob.png"
 
 colorchooser = f"{image_path}colorchooser.png"
 
-none = f"{image_path}application/none.png"
+none = f"{image_path}none.png"

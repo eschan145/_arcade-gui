@@ -20,7 +20,7 @@ from constants import BOTTOM, CENTER, DEFAULT_FONT, DEFAULT_FONT_FAMILY, DEFAULT
      ENTRY_BLINK_INTERVAL, KNOB_HOVER_SCALE, LEFT, MULTIPLE, SINGLE, SLIDER_VELOCITY, \
      TOGGLE_FADE, TOGGLE_VELOCITY, TOP
 from file import button, entry_normal, knob, none, slider_horizontal, \
-     toggle_false, toggle_true, toggle_false_hover, toggle_true_hover, combobox_middle_normal, combobox_bottom_normal, combobox_top_normal
+     toggle_false, toggle_true, toggle_false_hover, toggle_true_hover
 from key import  A, C, CONTROL, ENTER, KEY_LEFT, KEY_RIGHT, MOTION_BACKSPACE, MOTION_BEGINNING_OF_FILE, MOTION_BEGINNING_OF_LINE, MOTION_COPY, MOTION_DELETE, MOTION_DOWN, MOTION_END_OF_FILE, MOTION_END_OF_LINE, MOTION_LEFT, MOTION_NEXT_WORD, MOTION_PREVIOUS_WORD, MOTION_RIGHT, MOTION_UP, \
      MOUSE_BUTTON_LEFT, SHIFT, SPACE, TAB, V, X
 from key import Keys
@@ -2162,8 +2162,8 @@ class MyWindow(Window):
             "Click me!",
             250,
             250,
-            command=self.click,
-            link="chrome://dino")
+            command=self.click
+            )
 
         self.toggle = Toggle(
             "Show fps",
